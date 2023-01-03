@@ -1,0 +1,65 @@
+.register{
+  height: calc(100vh - 50px);
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url('./assets/bike2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  align-items: center;
+ 
+}
+
+.registerTitle{
+  font-size: 50px;
+  color: teal;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.registerForm{
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid teal;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.registerForm label {
+  margin: 5px 0;
+}
+
+.registerInput{
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+}
+
+.inputLabel{
+  color:teal;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.registerButton{
+  margin: 20px 0;
+  border:none;
+  border-radius:5px;
+  background-color: rgb(153, 146, 146);
+  color: white;
+  font-size: 20px;
+  font-family: 'Varela Round', sans-serif;
+  padding: 10px;
+}
+
+.registerLoginButton{
+  margin-top: 20px;
+  border:none;
+  border-radius:5px;
+  background-color: teal;
+  color: white;
+  font-size: 20px;
+  font-family: 'Varela Round', sans-serif;
+  padding: 10px;
+  cursor: pointer;
+}
